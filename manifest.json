@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Ardant Spy Tool",
+  "description": "Chrome Extension developed by Ardant, to scrap the emails in current page.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "resources/eye.png"
+  }
+}

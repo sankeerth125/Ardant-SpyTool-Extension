@@ -1,0 +1,64 @@
+/* Elements */
+
+main {
+  width: 300px;
+  height: 400px;
+}
+
+body {
+  background-color: #f1f1f1 !important;
+  margin: 0px !important;
+}
+
+/* Classes */
+
+.title {
+  font-family: sans-serif;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.title-description {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #624c4c96;
+  margin-top: 4px;
+}
+
+/* .icon {
+  background-image: url("/resources/eye.png");
+  height: 20px;
+  width: 20px;
+  display: block;
+} */
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #00b98d;
+  flex-wrap: wrap;
+  align-content: center;
+  position: relative;
+  z-index: 10;
+  box-shadow: rgb(99 99 99 / 58%) 0px 2px 8px 0px;
+}
+
+.main-section {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fefefe;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  color: #0000009c;
+  position: relative;
+  z-index: 10;
+  box-shadow: rgb(99 99 99 / 58%) 0px 2px 8px 0px;
+}

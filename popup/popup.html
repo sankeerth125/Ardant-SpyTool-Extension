@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ardant Spy Tool</title>
+    <link rel="stylesheet" href="./popup.css" />
+    <link rel="stylesheet" href="./button.css" />
+  </head>
+  <body>
+    <main>
+      <section class="header">
+        <span class="icon"></span>
+        <span><h1 class="title">Ardant Spy Tool</h1></span>
+        <div>
+          <h4 class="title-description">
+            Extract the emails from the current page
+          </h4>
+        </div>
+      </section>
+      <section class="main-section">
+        <div>
+          <h4>Get Emails</h4>
+        </div>
+        <div style="display: flex; justify-content: center">
+          <button id="extractButton" class="bubbly-button">
+            Extract Mails
+          </button>
+          <ul id="emailList"></ul>
+          <script src="/resources/fetchEmails.js"></script>
+          <script src="/resources/animateButton.js"></script>
+        </div>
+      </section>
+      <section class="footer">
+        <h5 style="margin-bottom: 0px">Powered By</h5>
+        <h3 style="margin-top: 4px">Ardant</h3>
+      </section>
+    </main>
+  </body>
+</html>
