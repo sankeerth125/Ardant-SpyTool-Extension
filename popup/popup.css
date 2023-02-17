@@ -21,16 +21,9 @@ body {
 .title-description {
   font-size: 12px;
   font-family: sans-serif;
-  color: #624c4c96;
+  color: #5c5151cf;
   margin-top: 4px;
 }
-
-/* .icon {
-  background-image: url("/resources/eye.png");
-  height: 20px;
-  width: 20px;
-  display: block;
-} */
 
 .header {
   display: flex;

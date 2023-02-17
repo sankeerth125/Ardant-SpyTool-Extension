@@ -23,13 +23,13 @@
         <div>
           <h4>Get Emails</h4>
         </div>
+        <ul id="emailList"></ul>
         <div style="display: flex; justify-content: center">
-          <button id="extractButton" class="bubbly-button">
-            Extract Mails
-          </button>
-          <ul id="emailList"></ul>
-          <script src="/resources/fetchEmails.js"></script>
-          <script src="/resources/animateButton.js"></script>
+          <div class="wrap">
+            <button class="glow-on-hover" id="extractButton">Extract</button>
+          </div>
+          <script src="/scripts/fetchEmails.js"></script>
+          <!-- <script src="/resources/animateButton.js"></script> -->
         </div>
       </section>
       <section class="footer">
